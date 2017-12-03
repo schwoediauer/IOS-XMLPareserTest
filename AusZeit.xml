@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Auszeit>
+    <Global>
+        <Setting>
+            <Path>/Webserver/meinPath</Path>
+            <NightShift>on</NightShift>
+            <Weather>www.weather.com</Weather>
+            <Slogan>www.ZitatdesTages.de</Slogan>
+        </Setting>
+        <GreetingText>
+            <Früh>Noch sehr früh</Früh>
+            <Morgen>Guten Morgen</Morgen>
+            <Vormittag>Schönen Vormittag</Vormittag>
+            <Mittag>Mahlzeit</Mittag>
+            <Nachmittag>Schönen Nachmittag</Nachmittag>
+            <Abend>Ruhigen Feierabend</Abend>
+            <Nacht>Gute Nacht </Nacht>
+        </GreetingText>
+    </Global>
+    <APPContent>
+        <Year id = "2017">
+            <Section>
+                <BeginSection>2017/1/1</BeginSection>
+                <EndSection>2017/1/31</EndSection>
+                <Season>Winter1</Season>
+                <Background>januar.png</Background>
+                <SpecialDay>
+                    <Date>1.1.</Date>
+                    <Text>Heute ist Silvester</Text>
+                    <Image>silvester.png</Image>
+                </SpecialDay>
+                <SpecialDay>
+                    <Date>5.1.</Date>
+                    <Text>Heute ist Geburtstag</Text>
+                    <Image>birthday.png</Image>
+                </SpecialDay>
+            </Section>
+        </Year>
+        <Year id = "2018">
+            <Section>
+                <BeginSection>2018/7/1</BeginSection>
+                <EndSection>2018/7/15</EndSection>
+                <Season>Olympia</Season>
+                <Background>sport.png</Background>
+                <SpecialDay>
+                    <Date>1.7.</Date>
+                    <Text>Heute ist ein Olympiafeuer</Text>
+                    <Image>olympia.png</Image>
+                </SpecialDay>
+                <SpecialDay>
+                    <Date>15.7.</Date>
+                    <Text>Heute ist Ende von Olympia</Text>
+                    <Image>final.png</Image>
+                </SpecialDay>
+            </Section>
+        </Year>
+    </APPContent>
+</Auszeit>
